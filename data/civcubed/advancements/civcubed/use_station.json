@@ -1,0 +1,17 @@
+{
+  "parent": "civcubed:civcubed/create_station_maker",
+  "criteria": {"worked_recipe": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft something with a workstation",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "show_toast": true,
+    "title": "The Means Of Production"
+  },
+  "requirements": [["worked_recipe"]],
+  "sends_telemetry_event": true
+}

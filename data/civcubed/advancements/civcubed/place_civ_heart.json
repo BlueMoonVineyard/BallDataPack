@@ -1,0 +1,17 @@
+{
+  "parent": "civcubed:civcubed/root",
+  "criteria": {"placed_heart": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Place your Civilization Heart",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:white_concrete"
+    },
+    "show_toast": true,
+    "title": "We Live In A Society"
+  },
+  "requirements": [["placed_heart"]],
+  "sends_telemetry_event": true
+}

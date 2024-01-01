@@ -1,0 +1,17 @@
+{
+  "parent": "civcubed:civcubed/get_tool_base_ores",
+  "criteria": {"worked_recipe": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft an alloy of 2 tool ores from your quadrant",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "show_toast": true,
+    "title": "Power Of Fusion"
+  },
+  "requirements": [["worked_recipe"]],
+  "sends_telemetry_event": true
+}

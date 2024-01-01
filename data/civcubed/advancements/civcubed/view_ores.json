@@ -1,0 +1,17 @@
+{
+  "parent": "civcubed:civcubed/root",
+  "criteria": {"book_used": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "View the Ore Chart with /book ores-and-you",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "show_toast": true,
+    "title": "Excavator"
+  },
+  "requirements": [["book_used"]],
+  "sends_telemetry_event": true
+}

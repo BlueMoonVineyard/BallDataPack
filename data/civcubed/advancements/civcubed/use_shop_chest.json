@@ -1,0 +1,17 @@
+{
+  "parent": "civcubed:civcubed/root",
+  "criteria": {"did_exchange": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Use a Shop Chest to sell or buy goods",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chest"
+    },
+    "show_toast": true,
+    "title": "Market Festival"
+  },
+  "requirements": [["did_exchange"]],
+  "sends_telemetry_event": true
+}

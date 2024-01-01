@@ -1,0 +1,18 @@
+{
+  "parent": "civcubed:civcubed/make_tier_one_alloy",
+  "criteria": {"worked_recipe": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft an alloy of ores from different quadrants",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_ingot",
+      "nbt": "{CustomModelData:411}"
+    },
+    "show_toast": true,
+    "title": "Power Of Friendship"
+  },
+  "requirements": [["worked_recipe"]],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "civcubed:civcubed/place_civ_heart",
+  "criteria": {"bind": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Bind a Civilization Beacon to a new group",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "show_toast": true,
+    "title": "New Horizons"
+  },
+  "requirements": [["bind"]],
+  "sends_telemetry_event": true
+}

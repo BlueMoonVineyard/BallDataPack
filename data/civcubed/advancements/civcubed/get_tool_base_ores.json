@@ -1,0 +1,25 @@
+{
+  "parent": "civcubed:civcubed/view_ores",
+  "criteria": {
+    "red_ore": {"trigger": "minecraft:impossible"},
+    "white_ore": {"trigger": "minecraft:impossible"},
+    "yellow_ore": {"trigger": "minecraft:impossible"}
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get all three tool ores for your quadrant",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "show_toast": true,
+    "title": "I Came I Saw I Dug"
+  },
+  "requirements": [
+    ["red_ore"],
+    ["white_ore"],
+    ["yellow_ore"]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "civcubed:civcubed/view_ores",
+  "criteria": {
+    "black_ore": {"trigger": "minecraft:impossible"},
+    "blue_ore": {"trigger": "minecraft:impossible"}
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get all two non-tool ores for your quadrant",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "show_toast": true,
+    "title": "Sparkly?"
+  },
+  "requirements": [
+    ["black_ore"],
+    ["blue_ore"]
+  ],
+  "sends_telemetry_event": true
+}

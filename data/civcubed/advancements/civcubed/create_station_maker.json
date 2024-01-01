@@ -1,0 +1,36 @@
+{
+  "parent": "civcubed:civcubed/root",
+  "criteria": {
+    "station_maker": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cartography_table"
+            ],
+            "nbt": "{PublicBukkitValues:{\"ballcore:basic_item_registry_id\":\"ballcore:station_maker\"}}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Create a Station Maker",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cartography_table",
+      "nbt": "{PublicBukkitValues:{\"ballcore:basic_item_registry_id\":\"ballcore:station_maker\"}}"
+    },
+    "show_toast": true,
+    "title": "Craft The Means"
+  },
+  "requirements": [
+    [
+      "station_maker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

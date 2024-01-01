@@ -1,0 +1,18 @@
+{
+  "parent": "civcubed:civcubed/use_shop_chest",
+  "criteria": {"insert_order": {"trigger": "minecraft:impossible"}},
+  "display": {
+    "announce_to_chat": true,
+    "description": "Set up a Shop Chest of your own",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:5}"
+    },
+    "show_toast": true,
+    "title": "Das Kapital"
+  },
+  "requirements": [["insert_order"]],
+  "sends_telemetry_event": true
+}
